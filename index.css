@@ -1,0 +1,107 @@
+
+
+body{
+  /* il problema è che l'immagine è in 4k*/
+  background-image: url("sfondo.jpg");
+  /* background-repeat serve per dare impostazioni relativamente al fatto se l'immagine deve essere ripetuta nello schermo */
+  background-repeat: no-repeat;
+  /* background-size:cover adatta la foto alla grandezza della pagina, quindi indipentemente dalla risoluazione dello schermo l'immagine viene adattata */
+  background-size: cover;
+  /* lunico prblema è che se diminuisco con control la dimeziosione della pagina rimane sempre uguale */
+}
+
+.contenitore-primo{
+  width: 55%;
+  margin : auto;
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.contenitore-secondo{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 15%;
+  padding-bottom: 25%;
+}
+
+h1{
+  color: green;
+  text-align: center;
+  font-family: 'Regular 400', cursive;
+}
+
+.immagine{
+  transform: translateX(33%);
+}
+
+.evid{
+  color: rgb(127,255,0);
+}
+
+nav{
+  width: 95%;
+  margin: auto;
+  background-color: rgb(127,200,0);
+  padding: 20px;
+  display: inline-block;
+}
+
+.button-1{
+  margin-left : 12%;
+  width: 20%;
+  font-size: 125%;
+}
+
+.button-2{
+  width: 35%;
+  font-size: 125%;
+}
+
+.button-3{
+  width: 18%;
+  font-size: 125%;
+}
+
+.principale{
+  width: auto;
+  display: inline-block;
+  padding-top: 5%;
+}
+
+.title{
+  width: auto;
+  font-size: 25px;
+  color: white;
+  font-family: 'Black 900 italic', cursive;
+}
+
+
+.subtitle{
+  width: auto;
+  color: lightgrey;
+}
+
+.barra-arancione{
+  width: 45%;
+  background-color: orange;
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+
+.barra-verde{
+  width: 70%;
+  background-color: rgb(127,255,0);
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+
+.barra-rossa{
+  width: 30%;
+  background-color: red;
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
